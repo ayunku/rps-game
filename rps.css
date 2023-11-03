@@ -1,0 +1,123 @@
+.container{
+    height: 650px;
+    width: 600px;
+    background-color: rgb(118, 118, 244);
+    margin: auto;
+    margin-top: 20px;
+}
+.scoreboard{
+    display: flex;
+    margin-top: 10px;
+}
+.yourscorecont{
+    display: flex;
+    margin-left: 20px;
+}
+.score{
+    background-color: black;
+    color: #ffff;
+    border: none;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+.compscorecont{
+    margin-left: auto;
+    display: flex;
+    margin-right: 20px;
+
+}
+.player{
+    margin-top: 15px;
+    font-family: monospace;
+    color: beige;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.scoreno{
+    margin-top: 15px;
+    font-family: monospace;
+    color: beige;
+    font-size: 20px;
+    font-weight: 600;
+}
+.mecomputer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+img{
+    width: 100px;
+}
+.winnerspace{
+    margin: auto;
+    background-color: rgb(105, 72, 135);
+    width: 400px;
+    height: 70px;
+    display: flex;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.ingame{
+    margin-top: 20px;
+    margin: auto;
+    font-family: monospace;
+    color: beige;
+    font-size: 20px;
+    font-weight: 800;
+}
+.rpsbtns{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.rpsbtns button{
+    background-color: rgb(60, 41, 77);
+    width: 100px;
+    height: 50px;
+    font-family: monospace;
+    color: beige;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(91, 91, 136);
+    font-size: 17px;
+    font-weight: 600;
+}
+.resetbtn{
+    display: flex;
+}
+.resetbtn button{
+    font-family: monospace;
+    color: beige;
+    background-color: rgb(60, 41, 77);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(91, 91, 136);
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+.uscomp{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: monospace;
+    color: beige;
+}
+.header{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: monospace;
+    color: beige;
+    /* margin-left: 90px; */
+    padding-top: 20px;
+}
+.vs{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: beige;
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 15px;
+}
